@@ -7,7 +7,6 @@
 @media screen and (min-width: 360px) {
   /*General for all the pages*/
   .navbar {
-    display: flex;
     justify-content: space-between;
     height: 15vw;
   }
@@ -149,9 +148,9 @@
     box-shadow: 5px 5px 5px #dbdbdb;
   }
 }
-
+/*-----------------------------------------------------------------------------------*/
 /*----------------Regular CSS (outside media queries)--------------------------------*/
-
+/*-----------------------------------------------------------------------------------*/
 body {
   background-color: #dbdbdb42;
 }
@@ -161,6 +160,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  display: flex;
 }
 header {
   margin-top: 54px;
