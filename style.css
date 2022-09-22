@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-/* Media queries*/
+/* ------------------Media queries--------------------------------*/
 
 @media screen and (min-width: 360px) {
   /*General for all the pages*/
@@ -23,7 +23,7 @@
     width: 75vw;
   }
 
-  /* for the HOMEPAGE*/
+  /* ---------------------for the HOMEPAGE*/
   .homepageH1 {
     /*  background-image: url("abstract-gold-yellow-gradient.jpg");
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@
     margin-top: 20px;
   } */
 
-  /*for the ABOUT PAGE*/
+  /*------------------for the ABOUT PAGE*/
   .aboutPageMain {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -79,27 +79,34 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    border: 1px solid #d3ab534f;
+    /* border: 1px solid #d3ab534f;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px #dbdbdb;
+    box-shadow: 5px 5px 5px #dbdbdb; */
   }
   .userIcon {
     width: 40vw;
     margin: 10px 5px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
   }
   .userDescription {
     padding: 10px;
   }
 }
 
-/*Regular CSS?*/
+/*----------------Regular CSS (outside media queries)--------------------------------*/
+
 body {
   background-color: #dbdbdb42;
 }
 .navbar {
   background-color: black;
   color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header {
+  margin-top: 54px;
 }
 .navLinks {
   text-decoration: none;
@@ -121,6 +128,14 @@ body {
 }
 .sectionParagraphs {
   border-left: 1px solid #d3ab53;
+}
+.memberContainer:hover {
+  border: 1px solid #d3ab534f;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #dbdbdb;
+}
+.userIcon {
+  border-radius: 50%;
 }
 footer {
   padding: 10px;
