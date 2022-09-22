@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 360px) {
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 15vw;
+  }
+  .logoImage {
+    max-width: 20vw;
+  }
+  .menuList {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 100%;
+    width: 75vw;
+  }
+  .navLinks {
+    text-decoration: none;
+  }
+  .navLinks:visited {
+    color: white;
+  }
+  .homepageH1 {
+    background-image: url("abstract-gold-yellow-gradient.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .homepageMain {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+  }
+  .homepageSections {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #cbac415c;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #dbdbdb;
+    padding: 10px;
+    align-items: center;
+  }
+  .sectionHeading {
+    margin-right: 15px;
+    text-align: end;
+  }
+  .sectionParagraphs {
+    text-align: justify;
+    padding: 5px 5px 5px 10px;
+    border-left: 1px solid #d3ab53;
+  }
+  footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
