@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact the Royal Kingdom</title>
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -26,6 +27,44 @@
     <header class="homepageHeader">
       <h1 class="homepageH1">Get in touch with the Kingdom</h1>
     </header>
+
+    <main class="contactMain">
+      <h4 class="formInstrution">Please fill out the form below!</h4>
+      <form class="contactForm" id="contactForm" action="">
+        <div class="formGroup">
+          <label for="name" class="formLabels">Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter you name"
+            id="userName"
+            class="form-control"
+          />
+        </div>
+        <div class="formGroup">
+          <label for="name" class="formLabels">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="userEmail"
+            class="form-control"
+          />
+        </div>
+        <div class="formGroup">
+          <label for="name" class="formLabels">Message</label>
+          <textarea
+            name="message"
+            id="userMessage"
+            cols="30"
+            rows="10"
+            class="form-control"
+          ></textarea>
+        </div>
+        <div class="formGroup">
+          <input type="submit" value="submit" class="submitButton" />
+        </div>
+      </form>
+    </main>
     <footer>
       <p>&copy; 2022</p>
     </footer>

@@ -101,7 +101,6 @@
     display: flex;
     align-items: center;
     margin: 10px;
-
     border-radius: 5px;
     box-shadow: 5px 5px 5px #dbdbdb;
   }
@@ -118,6 +117,36 @@
   .assetParagraph {
     padding: 10px;
     text-align: justify;
+  }
+  /* ---------for the CONTACT PAGE*/
+  .contactMain {
+    margin: 20px;
+    box-shadow: 5px 5px 5px #dbdbdb;
+    border: 1px solid #f1ede6;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .formInstrution {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  .formLabels {
+    margin-bottom: 5px;
+  }
+  .form-control {
+    padding: 5px;
+  }
+  .submitButton {
+    padding: 8px;
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #dbdbdb;
   }
 }
 
