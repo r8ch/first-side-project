@@ -91,6 +91,34 @@
   .userDescription {
     padding: 10px;
   }
+  /*-------------For the Assets Page*/
+  .assetsMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .assetsCard {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #dbdbdb;
+  }
+  .assetIconSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .assetIcon {
+    width: 20vw;
+    margin: 5px;
+  }
+  .assetDescription,
+  .assetParagraph {
+    padding: 10px;
+    text-align: justify;
+  }
 }
 
 /*----------------Regular CSS (outside media queries)--------------------------------*/
