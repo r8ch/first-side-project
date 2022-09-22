@@ -5,6 +5,7 @@
 /* Media queries*/
 
 @media screen and (min-width: 360px) {
+    /*General for all the pages*/
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,6 +23,7 @@
     width: 75vw;
   }
 
+/* for the HOMEPAGE*/
   .homepageH1 {
     /*  background-image: url("abstract-gold-yellow-gradient.jpg");
     background-repeat: no-repeat;
@@ -65,10 +67,23 @@
     text-align: center;
     margin-top: 20px;
   } */
+
+  /*for the ABOUT PAGE*/
+
+
+
+
+
+  
 }
 
-/*Regular CSS?*/
 
+
+
+/*Regular CSS?*/
+body {
+  background-color: #dbdbdb42;
+}
 .navbar {
   background-color: black;
   color: white;
