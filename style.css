@@ -5,7 +5,7 @@
 /* Media queries*/
 
 @media screen and (min-width: 360px) {
-    /*General for all the pages*/
+  /*General for all the pages*/
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@
     width: 75vw;
   }
 
-/* for the HOMEPAGE*/
+  /* for the HOMEPAGE*/
   .homepageH1 {
     /*  background-image: url("abstract-gold-yellow-gradient.jpg");
     background-repeat: no-repeat;
@@ -69,16 +69,29 @@
   } */
 
   /*for the ABOUT PAGE*/
-
-
-
-
-
-  
+  .aboutPageMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .memberContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #d3ab534f;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #dbdbdb;
+  }
+  .userIcon {
+    width: 40vw;
+    margin: 10px 5px;
+    border-radius: 50%;
+  }
+  .userDescription {
+    padding: 10px;
+  }
 }
-
-
-
 
 /*Regular CSS?*/
 body {
